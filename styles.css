@@ -1,0 +1,181 @@
+body {
+    direction: rtl;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/space-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid #444;
+}
+
+ header h1{
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: tirquoise;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700, 0 0 60px #FFD700, 0 0 70px #FFD700;
+    animation: shine 2s infinite; 
+}
+
+header p {
+    font-size: 1.2em;
+    color: #aaa;
+}
+
+.système{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.composant{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.composant:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.composant img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.composant h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #ffd700;
+}
+
+.composant p {
+    font-size: 1em;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .composant img {
+        width: 80px;
+    }
+}
+
+footer {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 0.9em;
+    color: #aaa;
+    border-top: 2px solid #444;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+/* رأس الصفحة */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+}
+
+
+label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
